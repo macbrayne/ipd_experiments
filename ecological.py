@@ -1,5 +1,5 @@
 import axelrod as axl
-from tools import *
+from tools import plot_eco, run_tournament
 import io
 from datetime import datetime
 
