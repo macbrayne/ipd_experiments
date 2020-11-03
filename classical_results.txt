@@ -1,0 +1,13 @@
+03/11/2020 19:09:35
+
+Playing Tournament No. 1
+Players: ['Cooperator', 'Defector', 'Grudger', 'Cycler CCD', 'Tit For Tat']
+
+Player Data:
+Player(Rank=0, Name='Defector', Median_score=2.6799999999999997, Cooperation_rating=0.0, Wins=4.0, Initial_C_rate=0.0, CC_rate=0.0, CD_rate=0.0, DC_rate=0.42, DD_rate=0.5800000000000001, CC_to_C_rate=0, CD_to_C_rate=0, DC_to_C_rate=0, DD_to_C_rate=0)
+Player(Rank=1, Name='Grudger', Median_score=2.6625, Cooperation_rating=0.505, Wins=1.0, Initial_C_rate=1.0, CC_rate=0.5025, CD_rate=0.0025, DC_rate=0.165, DD_rate=0.33, CC_to_C_rate=1.0, CD_to_C_rate=0, DC_to_C_rate=0, DD_to_C_rate=0)
+Player(Rank=2, Name='Tit For Tat', Median_score=2.41625, Cooperation_rating=0.66875, Wins=0.0, Initial_C_rate=1.0, CC_rate=0.585, CD_rate=0.08375, DC_rate=0.0825, DD_rate=0.24875, CC_to_C_rate=1.0, CD_to_C_rate=0, DC_to_C_rate=1.0, DD_to_C_rate=0)
+Player(Rank=3, Name='Cooperator', Median_score=2.0025, Cooperation_rating=1.0, Wins=0.0, Initial_C_rate=1.0, CC_rate=0.6675, CD_rate=0.3325, DC_rate=0.0, DD_rate=0.0, CC_to_C_rate=1.0, CD_to_C_rate=1.0, DC_to_C_rate=0, DD_to_C_rate=0)
+Player(Rank=4, Name='Cycler CCD', Median_score=1.76, Cooperation_rating=0.67, Wins=1.0, Initial_C_rate=1.0, CC_rate=0.255, CD_rate=0.41500000000000004, DC_rate=0.16625, DD_rate=0.16375, CC_to_C_rate=0.339561590543523, CD_to_C_rate=0.6691920641297902, DC_to_C_rate=1.0, DD_to_C_rate=1.0)
+
+
