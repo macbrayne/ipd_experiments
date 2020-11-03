@@ -1,0 +1,59 @@
+03/11/2020 14:59:45
+
+Playing Match No. 1 (length: 80)
+Players: [Defector, Cooperator]
+Winner: Defector
+Final Scores: (400, 0)
+Total Score: 400
+
+Sparklines: (█ = Cooperation,   = Defection)
+Defector:    <                                                                                >
+Cooperator:  <████████████████████████████████████████████████████████████████████████████████>
+
+
+
+Playing Match No. 2 (length: 80)
+Players: [Cooperator, Tit For Tat]
+Winner: None (Tie)
+Final Scores: (240, 240)
+Total Score: 480
+
+Sparklines: (█ = Cooperation,   = Defection)
+Cooperator:  <████████████████████████████████████████████████████████████████████████████████>
+Tit for Tat: <████████████████████████████████████████████████████████████████████████████████>
+
+
+
+Playing Match No. 3 (length: 80)
+Players: [Defector, Tit For Tat]
+Winner: Defector
+Final Scores: (84, 79)
+Total Score: 163
+
+Sparklines: (█ = Cooperation,   = Defection)
+Defector:    <                                                                                >
+Tit For Tat: <█                                                                               >
+
+
+
+Playing Match No. 4 (length: 80)
+Players: [Tit For Tat, Cycler CCD]
+Winner: None (Tie)
+Final Scores: (214, 214)
+Total Score: 428
+
+Sparklines: (█ = Cooperation,   = Defection)
+Tit for Tat: <███ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ █>
+Cycler CCD:  <██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██>
+
+
+
+Playing Match No. 5 (length: 80)
+Players: [Cycler CCD, Grudger]
+Winner: Grudger
+Final Scores: (36, 291)
+Total Score: 327
+
+Sparklines: (█ = Cooperation,   = Defection)
+Cycler CCD:  <██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██>
+Grudger:     <███                                                                             >
