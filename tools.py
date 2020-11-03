@@ -6,9 +6,9 @@ def run_tournament(players):
     tournament = axl.Tournament(players, seed=1)  # Create a tournament
     return tournament.play()  # Play the tournament
 
-def plot_eco(results, title=""):
+def plot_eco(results, title="Tournament", reproduce=10000, logscale=True):
     eco = axl.Ecosystem(results)
-    eco.reproduce(10000)
+    eco.reproduce(reproduce)
     plot = axl.Plot(results)
-    p = plot.stackplot(eco)
+    p = plot.stackplot(eco, title, logscale)
     matplotlib.pyplot.show(p)
