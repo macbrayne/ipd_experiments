@@ -7,7 +7,8 @@ from datetime import datetime
 def pretty_print(no, match):
     # Calculate total score
     total_score = sum(list(match.final_score()))
-
+    
+    # Pretty print
     pretty = "Playing Match No. " + str(no) + " (length: " + str(match.turns) + ")\n"
     pretty += "Players: "
     pretty += str(match.players) + "\n"
@@ -18,9 +19,6 @@ def pretty_print(no, match):
     pretty += "Total Score: "
     pretty += str(total_score) + "\n"
     pretty += "Sparklines: (█ = Cooperation,   = Defection)\n"
-    #print(pretty)
-    #print(match.sparklines())
-    #print("\n")
     with io.open("iterated_results.txt", "a") as file:
         file.write(pretty)
         file.write(match.sparklines(c_symbol="█", d_symbol=" ") + "\n\n\n")
