@@ -1,3 +1,6 @@
+# Copyright Florentin Schleuß 2020-2022. Licensed under 
+# the EUPL-1.2 or later
+
 import axelrod as axl
 import matplotlib
 matplotlib.use('TkAgg')
