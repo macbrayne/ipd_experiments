@@ -47,3 +47,8 @@ plot_eco(results=tournament, reproduce=20, title="Tournament Two", logscale=Fals
 #    axl.TitForTat(), axl.GoByMajority(), \
 #    axl.OriginalGradual(), axl.Random()]
 # plot_eco(run_tournament(players))
+
+players = [axl.Cooperator(), axl.Defector(), axl.CyclerCCD()]
+tournament = run_tournament(players)
+pretty_print(3, tournament)
+plot_eco(results=tournament, reproduce=20, title="Tournament Three", logscale=False)

@@ -75,3 +75,12 @@ players = [axl.CyclerCCD(), axl.Grudger()]
 match = axl.Match(players, match_length)
 match.play()
 pretty_print(5, match)
+
+"""
+Match Six: Tit for Tat vs GoByMajority Hard
+"""
+
+players = [axl.TitForTat(), axl.GoByMajority(soft=False)]
+match = axl.Match(players, match_length)
+match.play()
+pretty_print(6, match)
